@@ -38,6 +38,7 @@ $ docker pull docker.pkg.github.com/socialgouv/docker/<image>:<version>
 | **helm**          | `docker pull registry.gitlab.factory.social.gouv.fr/socialgouv/docker/helm:0.9.1`          | [![README](https://img.shields.io/badge/README--green.svg)](./helm/README.md)          |
 | **k8s-ns-killer** | `docker pull registry.gitlab.factory.social.gouv.fr/socialgouv/docker/k8s-ns-killer:0.9.1` | [![README](https://img.shields.io/badge/README--green.svg)](./k8s-ns-killer/README.md) |
 | **kubectl**       | `docker pull registry.gitlab.factory.social.gouv.fr/socialgouv/docker/kubectl:0.9.1`       | [![README](https://img.shields.io/badge/README--green.svg)](./kubectl/README.md)       |
+| **kustomize**       | `docker pull registry.gitlab.factory.social.gouv.fr/socialgouv/docker/kustomize:0.9.1`       | [![README](https://img.shields.io/badge/README--green.svg)](./kustomize/README.md)       |
 
 <br>
 <br>

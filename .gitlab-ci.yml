@@ -4,6 +4,7 @@ include:
   - /helm/.gitlab-ci.yml
   - /k8s-ns-killer/.gitlab-ci.yml
   - /kubectl/.gitlab-ci.yml
+  - /kustomize/.gitlab-ci.yml
 #
 
 variables:

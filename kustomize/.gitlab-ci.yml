@@ -1,0 +1,18 @@
+Build socialgouv/docker/kustomize:
+  stage: "Build"
+  extends: .base_register_to_gitlab_stage
+  variables:
+    CONTEXT: kustomize
+    IMAGE_NAME: ${CI_REGISTRY_IMAGE}/kustomize
+
+Test socialgouv/docker/kustomize:
+  stage: "Test"
+  image: "${CI_REGISTRY_IMAGE}/kustomize:${CI_COMMIT_SHA}"
+  environment: feature-dev
+  script:
+    - kustomize version
+
+Publish socialgouv/docker/kustomize to Github Registry:
+  extends: .base_publish_to_github_stage
+  variables:
+    IMAGE_NAME: socialgouv/docker/kustomize
