@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:3.8
 
 # install dependencies (gettext-base to install envsubst)
 RUN apt-get update \
