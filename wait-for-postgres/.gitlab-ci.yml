@@ -41,7 +41,7 @@ Test wait-for-postgres 2 2:
   image: docker:18
   services:
     - docker:18-dind
-    - postgres:10.11-alpine
+    - postgres:12.1-alpine
   script:
     - docker pull ${CI_REGISTRY_IMAGE}/wait-for-postgres:${CI_COMMIT_SHA}
     - docker run
